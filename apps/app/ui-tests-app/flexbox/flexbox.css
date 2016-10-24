@@ -1,0 +1,22 @@
+#container>Label {
+    border-width: 1;
+    border-color: black;
+    border-radius: 5;
+}
+#container>Label[selected="yes"] {
+    border-color: yellow;
+}
+
+.control {
+    font-size: 11;
+}
+.control FlexboxLayout {
+    border-width: 0 0 1 1;
+    border-color: gray;
+}
+.control Button {
+    border-width: 1 1 0 0;
+    border-color: gray;
+    padding: 0;
+    height: 0;
+}
